@@ -2,6 +2,10 @@
 
 This repository contains the complete code, dataset sample, and analysis for an automated grading system for essay questionsin business education built on fine-tuned Gemma 2 9B-IT using LoRA. The system evaluates student responses to accounting questions using a 4-criterion rubric (Clarity, Terminology, Coverage, Accuracy) and produces grades on a 0–5 scale.
 
+## Model
+
+- **Fine-tuned LoRA adapter**: [Hugging Face](https://huggingface.co/KamalEzzo/gemma2-9b-it-essay-grading-lora)
+
 ## Dataset
 
 - **2,550 student responses** across 85 questions (30 responses each)
