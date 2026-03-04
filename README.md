@@ -78,7 +78,7 @@ The notebooks are numbered in thesis pipeline order:
 | 03 | Zero-Shot Analysis | Local CPU | Compares 3 zero-shot models, selects Gemma for fine-tuning |
 | 04 | Data Splitting | Local CPU | Implements stratified question-level split with 50K-iteration optimization |
 | 05 | Ablation Study | Local CPU | Analyzes 13 LoRA configurations with bootstrap significance tests |
-| 06 | Fine-tuning Model | Colab GPU | Fine-tunes Gemma 2 9B-IT with LoRA (r=80, LR=2e-5, 3 epochs) |
+| 06 | Fine-tuning Model | Colab GPU | Fine-tunes Gemma 2 9B-IT with LoRA (r=80, LR=5e-6, 2 epochs) |
 | 07 | Fine-tuning Results | Local CPU | Before/after comparison with statistical tests (paired t-test, Wilcoxon, TOST equivalence) |
 | 08 | Commercial Inference | Local CPU | Runs GPT-4o, GPT-5.2, Claude Opus 4.6, Claude Sonnet 4 via API |
 | 09 | Commercial Comparison | Local CPU | Compares all 6 models with paired bootstrap significance tests |
