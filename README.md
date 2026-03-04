@@ -1,6 +1,6 @@
 # Automated Essay Grading with Fine-Tuned Gemma 2 9B-IT
 
-This repository contains the complete code, data, and analysis for an automated short-answer grading system built on fine-tuned Gemma 2 9B-IT using LoRA. The system evaluates student responses to accounting questions using a 4-criterion rubric (Clarity, Terminology, Coverage, Accuracy) and produces grades on a 0–5 scale.
+This repository contains the complete code, dataset sample, and analysis for an automated grading system for essay questionsin business education built on fine-tuned Gemma 2 9B-IT using LoRA. The system evaluates student responses to accounting questions using a 4-criterion rubric (Clarity, Terminology, Coverage, Accuracy) and produces grades on a 0–5 scale.
 
 ## Dataset
 
