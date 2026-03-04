@@ -8,6 +8,7 @@ This repository contains the complete code, dataset sample, and analysis for an 
 - 4 rubric criteria: Clarity (0–2), Terminology (0–2), Coverage (0–2), Accuracy (0–4)
 - Final grade = sum of rubric scores / 2 → 0–5 scale
 - Question-level stratified split: 51 train / 17 validation / 17 test questions (60/20/20%)
+- **Full dataset**: [Zenodo (DOI: 10.5281/zenodo.18856922)](https://doi.org/10.5281/zenodo.18856922) — a 90-row sample is included in this repo
 
 ## Key Results
 
