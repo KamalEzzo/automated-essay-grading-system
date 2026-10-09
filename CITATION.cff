@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite both the thesis and the dataset."
+title: "Automated Essay Grading with Fine-Tuned Gemma 2 9B-IT"
+abstract: >-
+  Code and analysis for an automated grading system for business education
+  essay questions, built on Gemma 2 9B-IT fine-tuned with LoRA. Student
+  responses are scored against a four-criterion rubric (Clarity, Terminology,
+  Coverage, Accuracy) on a 0-5 scale, with agreement measured against human
+  expert examiners.
+type: software
+authors:
+  - given-names: "Kamal Muhammad Kamal"
+    family-names: "Abdul-Fattah"
+    email: k.ezzo@nu.edu.eg
+    affiliation: "Nile University, School of Information Technology and Computer Science"
+repository-code: "https://github.com/KamalEzzo/automated-essay-grading-system"
+license: MIT
+keywords:
+  - automated essay scoring
+  - large language models
+  - fine-tuning
+  - LoRA
+  - business education
+  - educational assessment
+
+references:
+  - type: thesis
+    title: "Fine-Tuning Large Language Models for Automated Grading System in Business Education"
+    authors:
+      - given-names: "Kamal Muhammad Kamal"
+        family-names: "Abdul-Fattah"
+    thesis-type: "MSc thesis"
+    institution:
+      name: "Nile University"
+    year: 2026
+
+  - type: data
+    title: "Business Education Essay Grading Dataset"
+    authors:
+      - given-names: "Kamal Muhammad Kamal"
+        family-names: "Abdul-Fattah"
+    doi: "10.5281/zenodo.18856922"
+    year: 2026
