@@ -1,6 +1,6 @@
 # Automated Essay Grading with Fine-Tuned Gemma 2 9B-IT
 
-This repository contains the complete code, dataset sample, and analysis for an automated grading system for essay questions in business education built on fine-tuned Gemma 2 9B-IT using LoRA. The system evaluates student responses to accounting questions using a 4-criterion rubric (Clarity, Terminology, Coverage, Accuracy) and produces grades on a 0–5 scale.
+This repository contains the complete code and analysis for an automated grading system for essay questions in business education built on fine-tuned Gemma 2 9B-IT using LoRA. The system evaluates student responses to accounting questions using a 4-criterion rubric (Clarity, Terminology, Coverage, Accuracy) and produces grades on a 0–5 scale.
 
 ## Model
 
@@ -12,7 +12,7 @@ This repository contains the complete code, dataset sample, and analysis for an 
 - 4 rubric criteria: Clarity (0–2), Terminology (0–2), Coverage (0–2), Accuracy (0–4)
 - Final grade = sum of rubric scores / 2 → 0–5 scale
 - Question-level stratified split: 51 train / 17 validation / 17 test questions (60/20/20%)
-- **Full dataset**: archived with a citable DOI on [Zenodo (10.5281/zenodo.18856922)](https://doi.org/10.5281/zenodo.18856922). A 90-row sample is included in this repo (`Data Statistical Analysis/Data_Sample.xlsx`)
+- **Dataset**: held under restricted access on [Zenodo (10.5281/zenodo.18856922)](https://doi.org/10.5281/zenodo.18856922). Access is granted on request for non-commercial research. No student responses are stored in this repository.
 - Records are de-identified and used with institutional permission (see thesis, Ethical Considerations)
 
 ## Key Results
@@ -44,8 +44,7 @@ Held-out test set (17 questions, 510 responses):
 │   ├── 10_Error_Analysis.ipynb         # Error categorization & robustness
 │   └── 11_Human_Benchmark.ipynb        # Human-human agreement & multi-rater reliability
 │
-├── Data Statistical Analysis/          # Dataset & validation results
-│   ├── Data_Sample.xlsx                # 90-row sample (full dataset on Zenodo)
+├── Data Statistical Analysis/          # Validation results
 │   └── *.csv, *.json                   # Pre-computed validation results
 │
 ├── Zeroshot/                           # Zero-shot inference results
@@ -105,7 +104,7 @@ The notebooks are numbered in thesis pipeline order:
 ### Analysis notebooks (01, 03–05, 07, 09–11)
 
 These load pre-computed results and run locally — no GPU or API keys needed.
-Notebooks 01 and 04 need the full dataset (`Data Statistical Analysis/Data.xlsx`) from Zenodo; their saved outputs show the results on the full data:
+Notebooks 01 and 04 need the full dataset (`Data Statistical Analysis/Data.xlsx`), available on request from Zenodo (restricted access); their saved outputs show the results on the full data:
 
 ```bash
 pip install -r requirements.txt
